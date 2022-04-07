@@ -1,0 +1,24 @@
+Steps Done:
+
+1.created a repository for the assignment and cloned the project from the github url with a readme.md
+2.git checkout -b lohono-stays-assignment done to branch out from the main branch to lohono-stays-assignment branch
+3.npm init
+4.npm i express,nodemon and all other necessary packages example
+npm i express --save-exact
+npm i nodemon --save-exact
+5.create a file server.js in the root repository
+6.created a datasource through mysql along with scripts and table for automating the stuff
+7.After testing the datasource i have made a client and connected frontend and backend
+8.Made a calendar check in and checkout form parameter and binded the form parameter with
+POST method 
+9.Added a redirection page to fetch the result of the enquiry api for the villa
+10.On clicking one villa url it redirects to final booking page
+11.Once a villa is booked we send a Success message onto a new screen
+12.I have applied validation of fromDate getter than toDate in backend
+13.Made a datepicker in frontend through bootstrap and integrated backend path from that redirection
+14. I am assuming there is only user by my name for which this booking is taking place (for now being i am 
+enabling authentication page/login page and giving user login)
+15.Addresses of each city level has been taken same as this is a dummy data
+16.For now i am not taking number of guests into consideration. Can be taken up in modification
+17.It is assumed that a user can do multiple bookings based on availability for requested date
+18.Done with testing the flow
